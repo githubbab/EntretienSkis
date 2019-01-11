@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Entretien Skis</string>
+    <string name="action_settings">Options</string>
+    <string name="action_add_skis">Ajouter skis</string>
+    <string name="lblNbSorties">Nb Sortie:&#160;</string>
+    <string name="lblDepuisAffutage">depuis affutage:&#160;</string>
+    <string name="lblDepuisFartage">&#160;- depuis fartage:&#160;</string>
+    <string name="lblDateDebutSaison">Date du début de la saison:&#160;</string>
+    <string name="lblNomSkis">Nom des skis:&#160;</string>
+    <string name="txtNomSkis">Nom des skis</string>
+    <string name="title_activity_page_options">Options</string>
+
+    <string name="lblnbaffutage">Nb Affutage:&#160;</string>
+    <string name="lblnbfartage">&#160;- Nb Fartage:&#160;</string>
+    <string name="lblreparation">Réparation(saison):&#160;</string>
+    <string name="lblreparationfin">&#160;-&#160;</string>
+    <string name="swdelete"></string>
+    <string name="btnsortie">Ajouter sortie</string>
+    <string name="btnaffutage">Affutage</string>
+    <string name="btnaffutagepierre">Coup de pierre</string>
+    <string name="btnfartage">Fartage</string>
+    <string name="btnfartagegraph">Fartage graphite</string>
+    <string name="btnreparationman">Réparation manuelle</string>
+    <string name="btnreparationmag">Réparation magasin</string>
+    <string name="btndelete">Supprimer skis</string>
+    <string name="btndeleteaction">Supprimer</string>
+    <string name="lblmodifnomskis">Nom des skis:</string>
+
+    <string-array name="spnMois">
+        <item>Janvier</item>
+        <item>Février</item>
+        <item>Mars</item>
+        <item>Avril</item>
+        <item>Mai</item>
+        <item>Juin</item>
+        <item>Juillet</item>
+        <item>Août</item>
+        <item>Septembre</item>
+        <item>Octobre</item>
+        <item>Novembre</item>
+        <item>Décembre</item>
+    </string-array>
+
+</resources>

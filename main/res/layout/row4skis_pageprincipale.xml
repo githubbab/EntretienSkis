@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/lblaffutage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nom"
+        android:layout_toStartOf="@id/affutage"
+        android:text="@string/lblDepuisAffutage"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/affutage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nom"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="5dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/lblreparation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/affutage"
+        android:layout_toStartOf="@id/reparation"
+        android:textStyle="italic"
+        android:text="@string/lblreparation"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/reparation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/affutage"
+        android:layout_toStartOf="@id/lblreparationfin"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/lblreparationfin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/affutage"
+        android:layout_toStartOf="@id/lblsorties"
+        android:textStyle="italic"
+        android:text="@string/lblreparationfin"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/lblsorties"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/affutage"
+        android:layout_toStartOf="@id/sorties"
+        android:textStyle="italic"
+        android:text="@string/lblNbSorties"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/sorties"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/affutage"
+        android:layout_toStartOf="@id/lblfartage"
+        android:textStyle="bold"
+        android:textSize="12sp" />
+
+
+    <TextView
+        android:id="@+id/lblfartage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/fartage"
+        android:layout_below="@id/affutage"
+        android:textStyle="italic"
+        android:text="@string/lblDepuisFartage"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/fartage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/affutage"
+        android:textColor="@android:color/holo_green_dark"
+        android:layout_marginEnd="5dp"
+        android:textStyle="italic"
+        android:textSize="12sp" />
+
+
+</RelativeLayout>
